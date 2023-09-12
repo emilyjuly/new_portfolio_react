@@ -6,12 +6,47 @@
   padding: 20px;
 }
 
+.developer {
+  color: var(--primary-color);
+}
+
+.welcome {
+  font-size: 12px;
+  color: rgb(198, 197, 199);
+  letter-spacing: 0.5px;
+  font-weight: 300;
+}
+
 .text {
   display: flex;
-  width: 50%;
+  width: 30%;
   height: 300px;
   flex-direction: column;
   color: white;
+  margin-left: 20px;
+}
+
+.profile {
+  display: flex;
+  width: 40%;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid var(--primary-color);
+  border-radius: 100%;
+  box-shadow: 0 0 25px var(--primary-color);
+  animation: pulse 2s infinite;
+}
+
+.container-profile {
+  display: flex;
+  justify-content: right;
+  width: 80%;
+}
+
+.profile img {
+  width: 100%; /* A imagem preencherá todo o perfil */
+  height: auto; /* A altura será ajustada automaticamente para manter a proporção da imagem */
+  border-radius: 50%;
 }
 
 .title-text {
@@ -21,11 +56,22 @@
 
 .subtitle-text {
   font-weight: 600;
-  color: rgb(2, 221, 221);
   margin-left: 5px;
 }
 
 .content-text {
   margin-left: 5px;
   color: rgb(198, 197, 199);
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 10px var(--primary-color); /* Sombras iniciais */
+  }
+  50% {
+    box-shadow: 0 0 20px var(--primary-color); /* Sombras no meio da animação (mais intensa) */
+  }
+  100% {
+    box-shadow: 0 0 10px var(--primary-color); /* Sombras finais (como no início) */
+  }
 }

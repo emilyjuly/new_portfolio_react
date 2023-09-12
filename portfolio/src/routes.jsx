@@ -2,9 +2,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
 import Header from "./components/Header";
-import Projects from "./pages/Projects"
-import Certificates from "./pages/Certificates"
-import Courses from "./pages/Courses"
+import Projects from "./pages/Projects";
+import Certificates from "./pages/Certificates";
+import ContactMe from "./pages/ContactMe"
 
 function RoutesApp() {
     return (
@@ -14,7 +14,7 @@ function RoutesApp() {
                 <Route path="/" element={<Home />} />
                 <Route path="/projects" element={<Projects />} />
                 <Route path="/certificates" element={<Certificates />} />
-                <Route path="/courses" element={<Courses />} />
+                <Route path="/contact-me" element={<ContactMe />} />
             </Routes>
         </BrowserRouter>
     );

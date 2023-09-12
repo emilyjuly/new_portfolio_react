@@ -25,7 +25,7 @@
   color: white;
   margin-left: 10px;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .header-menu {
@@ -34,27 +34,49 @@
   justify-content: space-between;
   font-size: 13px;
   width: 40%;
+  height: 100%;
 }
 
 .link {
+  display: flex;
+  align-items: center;
   text-decoration: none;
   color: white;
   transition: ease 0.3s;
+  height: 100%;
 }
 
 .link:hover {
-  color: #00d6c4;
+  color: var(--primary-color);
   transition: ease 0.3s;
+  font-weight: 600;
+}
+
+.active-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: 600;
+  transition: ease 0.3s;
+  height: 100%;
+  border-bottom: 2px solid var(--primary-color); /* Borda branca na parte inferior do link ativo */
 }
 
 .icons {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 4%;
 }
 
 .icons svg {
+  color: var(--primary-color);
+  font-size: 16px;
+  margin: 5px;
+  transition: ease 0.3s;
+}
+
+.icons svg:hover {
   color: white;
-  font-size: 15px;
+  transition: ease 0.3s;
 }
