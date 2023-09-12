@@ -44,23 +44,26 @@
 }
 
 .profile img {
-  width: 100%; /* A imagem preencherá todo o perfil */
-  height: auto; /* A altura será ajustada automaticamente para manter a proporção da imagem */
+  width: 100%;
+  height: auto;
   border-radius: 50%;
 }
 
 .title-text {
   letter-spacing: 2px;
   margin-bottom: 20px;
+  font-size: 50px;
 }
 
 .subtitle-text {
+  font-size: 20px;
   font-weight: 600;
-  margin-left: 5px;
+  margin-left: 20px;
 }
 
 .content-text {
-  margin-left: 5px;
+  font-size: 15px;
+  margin-left: 20px;
   color: rgb(198, 197, 199);
 }
 

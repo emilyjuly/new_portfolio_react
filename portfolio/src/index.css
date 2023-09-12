@@ -49,7 +49,7 @@ html {
 
 body {
   font-family: var(--body-font);
-  background-image: url(https://wallpapershome.com/images/wallpapers/macos-big-sur-1280x720-dark-wwdc-2020-22655.jpg);
+  background-image: url("/bg.jpg");
   background-size: cover;
 }
 
@@ -119,29 +119,99 @@ body.light-mode .video-bg:before {
 }
 
 .shape-1 {
-  background: linear-gradient(45deg, #ff0037 0%, #ff7896 100%);
-  animation: morph 8s ease-in-out infinite;
-  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-  height: 50px;
-  transition: all 1s ease-in-out;
-  width: 50px;
   position: absolute;
+  animation: morph3 8s ease-in-out infinite;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  height: 70px;
+  transition: all 1s ease-in-out;
+  width: 70px;
   z-index: 1;
-  right: 0;
-  bottom: 0;
+  right: 3%;
+  top: 18%;
 }
 
 .shape-2 {
-  background: linear-gradient(45deg, #ff0037 0%, #ff7896 100%);
+  position: absolute;
   animation: morph 8s ease-in-out infinite;
   border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-  height: 50px;
+  height: 100px;
   transition: all 1s ease-in-out;
-  width: 50px;
-  position: absolute;
+  width: 100px;
   z-index: -1;
-  right: 0;
-  top: 0;
+  right: 1%;
+  top: 8%;
+}
+
+.shape-3 {
+  position: absolute;
+  animation: morph2 8s ease-in-out infinite;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  height: 75px;
+  transition: all 1s ease-in-out;
+  width: 75px;
+  z-index: 1;
+  right: 20%;
+  top: 50%;
+}
+
+.shape-4 {
+  position: absolute;
+  animation: morph 8s ease-in-out infinite;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  height: 150px;
+  transition: all 1s ease-in-out;
+  width: 150px;
+  z-index: -1;
+  right: 20%;
+  top: 40%;
+}
+
+.shape-5 {
+  position: absolute;
+  animation: morph2 8s ease-in-out infinite;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  height: 75px;
+  transition: all 1s ease-in-out;
+  width: 75px;
+  z-index: 1;
+  left: 9%;
+  top: 55%;
+}
+
+.shape-6 {
+  position: absolute;
+  animation: morph3 8s ease-in-out infinite;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  height: 150px;
+  transition: all 1s ease-in-out;
+  width: 150px;
+  z-index: -1;
+  left: 1%;
+  top: 40%;
+}
+
+.shape-7 {
+  position: absolute;
+  animation: morph2 8s ease-in-out infinite;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  height: 75px;
+  transition: all 1s ease-in-out;
+  width: 75px;
+  z-index: 1;
+  left: 28%;
+  top: 22%;
+}
+
+.shape-8 {
+  position: absolute;
+  animation: morph 8s ease-in-out infinite;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  height: 150px;
+  transition: all 1s ease-in-out;
+  width: 150px;
+  z-index: -1;
+  left: 30%;
+  top: 10%;
 }
 
 @keyframes morph {
@@ -158,5 +228,39 @@ body.light-mode .video-bg:before {
   100% {
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
     background: linear-gradient(45deg, #ff0037 0%, #ff7896 100%);
+  }
+}
+
+@keyframes morph2 {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    border: 1px solid var(--primary-color);
+  }
+
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    border: 1px solid var(--primary-color);
+  }
+
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    border: 1px solid var(--primary-color);
+  }
+}
+
+@keyframes morph3 {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    background: linear-gradient(45deg, #ff00376a 0%, #ff78958d 100%);
+  }
+
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    background: linear-gradient(45deg, #ff00376a 0%, #ff78958d 100%);
+  }
+
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    background: linear-gradient(45deg, #ff00376a 0%, #ff78958d 100%);
   }
 }
