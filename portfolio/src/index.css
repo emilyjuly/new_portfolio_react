@@ -1,266 +1,306 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  outline: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
 }
 
 :root {
-  --primary-color: rgb(255, 77, 121);
-  --theme-bg-color: rgba(16 18 27 / 40%);
-  --border-color: rgba(113 119 144 / 25%);
-  --theme-color: #f9fafb;
-  --inactive-color: rgb(113 119 144 / 78%);
-  --hover-menu-bg: rgba(12 15 25 / 30%);
-  --content-title-color: #999ba5;
-  --content-bg: rgb(146 151 179 / 13%);
-  --button-inactive: rgb(249 250 251 / 55%);
-  --dropdown-bg: #21242d;
-  --dropdown-hover: rgb(42 46 60);
-  --popup-bg: rgb(22 25 37);
-  --search-bg: #14162b;
-  --overlay-bg: rgba(36, 39, 59, 0.3);
-  --scrollbar-bg: rgb(1 2 3 / 40%);
-  --body-font: "Poppins", sans-serif;
+    --primary-color: rgb(255, 77, 121);
+    --theme-bg-color: rgba(16 18 27 / 40%);
+    --border-color: rgba(113 119 144 / 25%);
+    --theme-color: #f9fafb;
+    --inactive-color: rgb(113 119 144 / 78%);
+    --hover-menu-bg: rgba(12 15 25 / 30%);
+    --content-title-color: #999ba5;
+    --content-bg: rgb(146 151 179 / 13%);
+    --button-inactive: rgb(249 250 251 / 55%);
+    --dropdown-bg: #21242d;
+    --dropdown-hover: rgb(42 46 60);
+    --popup-bg: rgb(22 25 37);
+    --search-bg: #14162b;
+    --overlay-bg: rgba(36, 39, 59, 0.3);
+    --scrollbar-bg: rgb(1 2 3 / 40%);
+    --body-font: "Poppins", sans-serif;
 }
 
 .light-mode {
-  --theme-bg-color: rgb(255 255 255 / 31%);
-  --theme-color: #3c3a3a;
-  --inactive-color: #333333;
-  --button-inactive: #3c3a3a;
-  --search-bg: rgb(255 255 255 / 31%);
-  --dropdown-bg: #f7f7f7;
-  --overlay-bg: rgb(255 255 255 / 30%);
-  --dropdown-hover: rgb(236 236 236);
-  --border-color: rgb(255 255 255 / 35%);
-  --popup-bg: rgb(255 255 255);
-  --hover-menu-bg: rgba(255 255 255 / 35%);
-  --scrollbar-bg: rgb(255 253 253 / 57%);
-  --content-title-color: --theme-color;
+    --theme-bg-color: rgb(255 255 255 / 31%);
+    --theme-color: #3c3a3a;
+    --inactive-color: #333333;
+    --button-inactive: #3c3a3a;
+    --search-bg: rgb(255 255 255 / 31%);
+    --dropdown-bg: #f7f7f7;
+    --overlay-bg: rgb(255 255 255 / 30%);
+    --dropdown-hover: rgb(236 236 236);
+    --border-color: rgb(255 255 255 / 35%);
+    --popup-bg: rgb(255 255 255);
+    --hover-menu-bg: rgba(255 255 255 / 35%);
+    --scrollbar-bg: rgb(255 253 253 / 57%);
+    --content-title-color: --theme-color;
 }
 
 html {
-  box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
 }
 
 body {
-  font-family: var(--body-font);
-  background-image: url("/bg.jpg");
-  background-size: cover;
+    font-family: var(--body-font);
+    background-image: url("/bg.jpg");
+    background-size: cover;
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  background-color: var(--theme-bg-color);
-  display: flex;
-  width: 100%;
-  backdrop-filter: blur(50px);
-  -webkit-backdrop-filter: blur(20px);
-  min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--theme-bg-color);
+    display: flex;
+    width: 100%;
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(20px);
+    min-height: 100vh;
 }
 
 .dark-light {
-  position: fixed;
-  bottom: 50px;
-  right: 30px;
-  background-color: var(--dropdown-bg);
-  box-shadow: -1px 3px 8px -1px rgba(0, 0, 0, 0.2);
-  padding: 8px;
-  border-radius: 50%;
-  z-index: 3;
-  cursor: pointer;
-  svg {
-    width: 24px;
-    flex-shrink: 0;
-    fill: #ffce45;
-    stroke: #ffce45;
-    transition: 0.5s;
-  }
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    background-color: var(--dropdown-bg);
+    box-shadow: -1px 3px 8px -1px rgba(0, 0, 0, 0.2);
+    padding: 8px;
+    border-radius: 50%;
+    z-index: 3;
+    cursor: pointer;
+    svg {
+        width: 24px;
+        flex-shrink: 0;
+        fill: #ffce45;
+        stroke: #ffce45;
+        transition: 0.5s;
+    }
 }
 
 .light-mode {
-  .dark-light svg {
-    fill: transparent;
-    stroke: var(--theme-color);
-  }
-  .profile-img {
-    border: 2px solid var(--theme-bg-color);
-  }
-  .content-section ul {
-    background-color: var(--theme-bg-color);
-  }
-  .pop-up__title {
-    border-color: var(--theme-color);
-  }
-  .dropdown.is-active ul {
-    background-color: rgb(255 255 255 / 94%);
-  }
+    .dark-light svg {
+        fill: transparent;
+        stroke: var(--theme-color);
+    }
+    .profile-img {
+        border: 2px solid var(--theme-bg-color);
+    }
+    .content-section ul {
+        background-color: var(--theme-bg-color);
+    }
+    .pop-up__title {
+        border-color: var(--theme-color);
+    }
+    .dropdown.is-active ul {
+        background-color: rgb(255 255 255 / 94%);
+    }
 }
 
 body.light-mode:before,
 body.light-mode .video-bg:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100vh;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.72) 0%,
-    rgb(255 255 255 / 45%) 100%
-  );
-  backdrop-filter: saturate(3);
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.72) 0%,
+        rgb(255 255 255 / 45%) 100%
+    );
+    backdrop-filter: saturate(3);
 }
 
 .shape-1 {
-  position: absolute;
-  animation: morph3 8s ease-in-out infinite;
-  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-  height: 70px;
-  transition: all 1s ease-in-out;
-  width: 70px;
-  z-index: 1;
-  right: 3%;
-  top: 18%;
+    position: absolute;
+    animation: morph3 8s ease-in-out infinite;
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    height: 70px;
+    transition: all 1s ease-in-out;
+    width: 70px;
+    z-index: 1;
+    right: 3%;
+    top: 18%;
+    @media (max-width: 1020px) {
+        height: 30px;
+        width: 30px;
+        top: 20%;
+    }
 }
 
 .shape-2 {
-  position: absolute;
-  animation: morph 8s ease-in-out infinite;
-  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-  height: 100px;
-  transition: all 1s ease-in-out;
-  width: 100px;
-  z-index: -1;
-  right: 1%;
-  top: 8%;
+    position: absolute;
+    animation: morph 8s ease-in-out infinite;
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    height: 100px;
+    transition: all 1s ease-in-out;
+    width: 100px;
+    z-index: -1;
+    right: 1%;
+    top: 8%;
+    @media (max-width: 1020px) {
+        height: 50px;
+        width: 50px;
+        top: 15%;
+    }
 }
 
 .shape-3 {
-  position: absolute;
-  animation: morph2 8s ease-in-out infinite;
-  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-  height: 75px;
-  transition: all 1s ease-in-out;
-  width: 75px;
-  z-index: 1;
-  right: 20%;
-  top: 50%;
+    position: absolute;
+    animation: morph2 8s ease-in-out infinite;
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    height: 75px;
+    transition: all 1s ease-in-out;
+    width: 75px;
+    z-index: 1;
+    right: 20%;
+    top: 50%;
+    @media (max-width: 1020px) {
+        height: 30px;
+        width: 30px;
+        right: 0%;
+    }
 }
 
 .shape-4 {
-  position: absolute;
-  animation: morph 8s ease-in-out infinite;
-  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-  height: 150px;
-  transition: all 1s ease-in-out;
-  width: 150px;
-  z-index: -1;
-  right: 20%;
-  top: 40%;
+    position: absolute;
+    animation: morph 8s ease-in-out infinite;
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    height: 150px;
+    transition: all 1s ease-in-out;
+    width: 150px;
+    z-index: -1;
+    right: 20%;
+    top: 40%;
+    @media (max-width: 1020px) {
+        height: 60px;
+        width: 60px;
+        top: 52%;
+        right: 0%;
+    }
 }
 
 .shape-5 {
-  position: absolute;
-  animation: morph2 8s ease-in-out infinite;
-  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-  height: 75px;
-  transition: all 1s ease-in-out;
-  width: 75px;
-  z-index: 1;
-  left: 9%;
-  top: 55%;
+    position: absolute;
+    animation: morph2 8s ease-in-out infinite;
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    height: 75px;
+    transition: all 1s ease-in-out;
+    width: 75px;
+    z-index: 1;
+    left: 9%;
+    top: 55%;
+    @media (max-width: 1020px) {
+        height: 40px;
+        width: 40px;
+        top: 38%;
+        left: 3%;
+    }
 }
 
 .shape-6 {
-  position: absolute;
-  animation: morph3 8s ease-in-out infinite;
-  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-  height: 150px;
-  transition: all 1s ease-in-out;
-  width: 150px;
-  z-index: -1;
-  left: 1%;
-  top: 40%;
+    position: absolute;
+    animation: morph3 8s ease-in-out infinite;
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    height: 150px;
+    transition: all 1s ease-in-out;
+    width: 150px;
+    z-index: -1;
+    left: 1%;
+    top: 40%;
+    @media (max-width: 1020px) {
+        height: 80px;
+        width: 80px;
+    }
 }
 
 .shape-7 {
-  position: absolute;
-  animation: morph2 8s ease-in-out infinite;
-  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-  height: 75px;
-  transition: all 1s ease-in-out;
-  width: 75px;
-  z-index: 1;
-  left: 28%;
-  top: 22%;
+    position: absolute;
+    animation: morph2 8s ease-in-out infinite;
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    height: 75px;
+    transition: all 1s ease-in-out;
+    width: 75px;
+    z-index: 1;
+    left: 28%;
+    top: 22%;
+    @media (max-width: 1020px) {
+        animation: none;
+    }
 }
 
 .shape-8 {
-  position: absolute;
-  animation: morph 8s ease-in-out infinite;
-  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-  height: 150px;
-  transition: all 1s ease-in-out;
-  width: 150px;
-  z-index: -1;
-  left: 30%;
-  top: 10%;
+    position: absolute;
+    animation: morph 8s ease-in-out infinite;
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    height: 150px;
+    transition: all 1s ease-in-out;
+    width: 150px;
+    z-index: -1;
+    left: 30%;
+    top: 10%;
+    @media (max-width: 1020px) {
+        animation: none;
+    }
 }
 
 @keyframes morph {
-  0% {
-    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-    background: linear-gradient(45deg, #ff0037 0%, #ff7896 100%);
-  }
+    0% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+        background: linear-gradient(45deg, #ff0037 0%, #ff7896 100%);
+    }
 
-  50% {
-    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
-    background: linear-gradient(45deg, #ff0037 0%, #ff7896 100%);
-  }
+    50% {
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+        background: linear-gradient(45deg, #ff0037 0%, #ff7896 100%);
+    }
 
-  100% {
-    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-    background: linear-gradient(45deg, #ff0037 0%, #ff7896 100%);
-  }
+    100% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+        background: linear-gradient(45deg, #ff0037 0%, #ff7896 100%);
+    }
 }
 
 @keyframes morph2 {
-  0% {
-    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-    border: 1px solid var(--primary-color);
-  }
+    0% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+        border: 1px solid var(--primary-color);
+    }
 
-  50% {
-    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
-    border: 1px solid var(--primary-color);
-  }
+    50% {
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+        border: 1px solid var(--primary-color);
+    }
 
-  100% {
-    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-    border: 1px solid var(--primary-color);
-  }
+    100% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+        border: 1px solid var(--primary-color);
+    }
 }
 
 @keyframes morph3 {
-  0% {
-    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-    background: linear-gradient(45deg, #ff00376a 0%, #ff78958d 100%);
-  }
+    0% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+        background: linear-gradient(45deg, #ff00376a 0%, #ff78958d 100%);
+    }
 
-  50% {
-    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
-    background: linear-gradient(45deg, #ff00376a 0%, #ff78958d 100%);
-  }
+    50% {
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+        background: linear-gradient(45deg, #ff00376a 0%, #ff78958d 100%);
+    }
 
-  100% {
-    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-    background: linear-gradient(45deg, #ff00376a 0%, #ff78958d 100%);
-  }
+    100% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+        background: linear-gradient(45deg, #ff00376a 0%, #ff78958d 100%);
+    }
+}
+
+@media (max-width: 1020px) {
 }
