@@ -1,0 +1,29 @@
+.container-skills {
+    display: flex;
+    flex-direction: column;
+    border-top: 2px solid var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+    width: 100%;
+    padding: 20px;
+    @media (max-width: 1020px) {
+        padding: 5px;
+    }
+}
+
+.cards {
+    display: flex;
+    justify-content: left;
+    @media (max-width: 1020px) {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.skill-title {
+    color: white;
+    margin-left: 20px;
+    letter-spacing: 1.5px;
+    @media (max-width: 1020px) {
+        font-size: 20px;
+    }
+}
