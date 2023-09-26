@@ -131,6 +131,7 @@ body.light-mode .video-bg:before {
     background: linear-gradient(45deg, #ff003728 0%, #ff78953a 100%);
     @media (max-width: 1020px) {
         background: transparent;
+        left: 0%;
     }
 }
 
@@ -144,6 +145,7 @@ body.light-mode .video-bg:before {
     background: linear-gradient(45deg, #ff00376a 0%, #ff78958d 100%);
     @media (max-width: 1020px) {
         background: transparent;
+        left: 0%;
     }
 }
 
@@ -157,6 +159,7 @@ body.light-mode .video-bg:before {
     background: linear-gradient(45deg, #ff00376a 0%, #ff78958d 100%);
     @media (max-width: 1020px) {
         background: transparent;
+        left: 0%;
     }
 }
 
@@ -170,6 +173,7 @@ body.light-mode .video-bg:before {
     background: linear-gradient(45deg, #ff00373f 0%, #ff789546 100%);
     @media (max-width: 1020px) {
         background: transparent;
+        left: 0%;
     }
 }
 
@@ -183,6 +187,7 @@ body.light-mode .video-bg:before {
     background: linear-gradient(45deg, #ff0037c2 0%, #ff7895c0 100%);
     @media (max-width: 1020px) {
         background: transparent;
+        left: 0%;
     }
 }
 
@@ -196,6 +201,7 @@ body.light-mode .video-bg:before {
     background: linear-gradient(45deg, #ff003765 0%, #ff78955e 100%);
     @media (max-width: 1020px) {
         background: transparent;
+        left: 0%;
     }
 }
 
@@ -209,6 +215,7 @@ body.light-mode .video-bg:before {
     background: linear-gradient(45deg, #ff0037c2 0%, #ff7895c0 100%);
     @media (max-width: 1020px) {
         background: transparent;
+        left: 0%;
     }
 }
 
@@ -222,6 +229,7 @@ body.light-mode .video-bg:before {
     background: linear-gradient(45deg, #ff0037c2 0%, #ff7895c0 100%);
     @media (max-width: 1020px) {
         background: transparent;
+        left: 0%;
     }
 }
 
@@ -235,6 +243,7 @@ body.light-mode .video-bg:before {
     background: linear-gradient(45deg, #ff003765 0%, #ff78955e 100%);
     @media (max-width: 1020px) {
         background: transparent;
+        left: 0%;
     }
 }
 
@@ -249,6 +258,7 @@ body.light-mode .video-bg:before {
     @media (max-width: 1020px) {
         background: transparent;
         border: none;
+        left: 0%;
     }
 }
 
@@ -262,6 +272,7 @@ body.light-mode .video-bg:before {
     background: linear-gradient(45deg, #ff0037c2 0%, #ff7895c0 100%);
     @media (max-width: 1020px) {
         background: transparent;
+        left: 0%;
     }
 }
 
@@ -275,6 +286,7 @@ body.light-mode .video-bg:before {
     background: linear-gradient(45deg, #ff0037c2 0%, #ff7895c0 100%);
     @media (max-width: 1020px) {
         background: transparent;
+        left: 0%;
     }
 }
 
@@ -289,6 +301,7 @@ body.light-mode .video-bg:before {
     @media (max-width: 1020px) {
         background: transparent;
         border: none;
+        left: 0%;
     }
 }
 
