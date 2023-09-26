@@ -248,6 +248,7 @@ body.light-mode .video-bg:before {
     border: 1px solid var(--primary-color);
     @media (max-width: 1020px) {
         background: transparent;
+        border: none;
     }
 }
 
@@ -287,6 +288,7 @@ body.light-mode .video-bg:before {
     border: 1px solid var(--primary-color);
     @media (max-width: 1020px) {
         background: transparent;
+        border: none;
     }
 }
 
