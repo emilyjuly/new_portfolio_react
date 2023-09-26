@@ -16,15 +16,6 @@ const AboutMe = () => {
                     <img src="/profile-2.jpg" alt="July's picture" />
                 </div>
             </div>
-            <div className="shape-1" />
-            <div className="shape-2" />
-            <div className="shape-3" />
-            <div className="shape-4" />
-
-            <div className="shape-5" />
-            <div className="shape-6" />
-            <div className="shape-7" />
-            <div className="shape-8" />
         </div>
     );
 };

@@ -16,18 +16,19 @@ const TimelineCard = ({ title, date, company, description, skills }) => {
                 <FaRegBuilding />
                 {company}
             </p>
-            <p className="description">
-                {description}
-            </p>
+            <p className="description">{description}</p>
             <p className="skills">
-                {skills ? <span className="skills-title">
-                    <BiCodeAlt />
-                    Skills
-                </span> : ''}
+                {skills ? (
+                    <span className="skills-title">
+                        <BiCodeAlt />
+                        Skills
+                    </span>
+                ) : (
+                    ""
+                )}
                 {skills}
             </p>
         </div>
-
     );
 };
 
