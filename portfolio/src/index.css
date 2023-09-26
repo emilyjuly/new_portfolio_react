@@ -130,8 +130,10 @@ body.light-mode .video-bg:before {
     left: 70%;
     background: linear-gradient(45deg, #ff003728 0%, #ff78953a 100%);
     @media (max-width: 1020px) {
-        background: transparent;
-        left: 10%;
+        height: 120px;
+        width: 120px;
+        top: 13%;
+        left: 20%;
     }
 }
 
@@ -145,7 +147,6 @@ body.light-mode .video-bg:before {
     background: linear-gradient(45deg, #ff00376a 0%, #ff78958d 100%);
     @media (max-width: 1020px) {
         background: transparent;
-        left: 10%;
     }
 }
 
@@ -157,9 +158,6 @@ body.light-mode .video-bg:before {
     top: 20%;
     left: 75%;
     background: linear-gradient(45deg, #ff00376a 0%, #ff78958d 100%);
-    @media (max-width: 1020px) {
-        left: 70%;
-    }
 }
 
 .shape-3 {
@@ -172,7 +170,6 @@ body.light-mode .video-bg:before {
     background: linear-gradient(45deg, #ff00373f 0%, #ff789546 100%);
     @media (max-width: 1020px) {
         background: transparent;
-        left: 10%;
     }
 }
 
@@ -188,7 +185,7 @@ body.light-mode .video-bg:before {
         height: 100px;
         width: 100px;
         top: 4%;
-        left: 50%;
+        left: 60%;
     }
 }
 
@@ -201,8 +198,7 @@ body.light-mode .video-bg:before {
     left: 18%;
     background: linear-gradient(45deg, #ff003765 0%, #ff78955e 100%);
     @media (max-width: 1020px) {
-        top: 12%;
-        left: 25%;
+        background: transparent;
     }
 }
 
@@ -214,10 +210,6 @@ body.light-mode .video-bg:before {
     top: 50%;
     left: 80%;
     background: linear-gradient(45deg, #ff0037c2 0%, #ff7895c0 100%);
-    @media (max-width: 1020px) {
-        background: transparent;
-        left: 10%;
-    }
 }
 
 .shape-7 {
@@ -228,10 +220,6 @@ body.light-mode .video-bg:before {
     top: 65%;
     left: 13%;
     background: linear-gradient(45deg, #ff0037c2 0%, #ff7895c0 100%);
-    @media (max-width: 1020px) {
-        background: transparent;
-        left: 10%;
-    }
 }
 
 .shape-8 {
@@ -242,10 +230,6 @@ body.light-mode .video-bg:before {
     top: 35%;
     left: 0%;
     background: linear-gradient(45deg, #ff003765 0%, #ff78955e 100%);
-    @media (max-width: 1020px) {
-        background: transparent;
-        left: 10%;
-    }
 }
 
 .shape-9 {
@@ -256,11 +240,6 @@ body.light-mode .video-bg:before {
     top: 63%;
     left: 18%;
     border: 1px solid var(--primary-color);
-    @media (max-width: 1020px) {
-        background: transparent;
-        left: 10%;
-        border: none;
-    }
 }
 
 .shape-10 {
@@ -271,12 +250,6 @@ body.light-mode .video-bg:before {
     top: 73%;
     left: 88%;
     background: linear-gradient(45deg, #ff0037c2 0%, #ff7895c0 100%);
-    @media (max-width: 1020px) {
-        height: 95px;
-        width: 95px;
-        top: 70%;
-        left: 70%;
-    }
 }
 
 .shape-11 {
@@ -287,12 +260,6 @@ body.light-mode .video-bg:before {
     top: 92%;
     left: 70%;
     background: linear-gradient(45deg, #ff0037c2 0%, #ff7895c0 100%);
-    @media (max-width: 1020px) {
-        height: 80px;
-        width: 80px;
-        top: 93%;
-        left: 68%;
-    }
 }
 
 .shape-12 {
@@ -303,12 +270,6 @@ body.light-mode .video-bg:before {
     top: 95%;
     left: 68%;
     border: 1px solid var(--primary-color);
-    @media (max-width: 1020px) {
-        height: 60px;
-        width: 60px;
-        top: 95%;
-        left: 68%;
-    }
 }
 
 @keyframes morph {
