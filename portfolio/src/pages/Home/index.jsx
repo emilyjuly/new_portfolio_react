@@ -17,7 +17,7 @@ const Home = () => {
         <div>
             <AboutMe />
             <div className="timelines">
-                <h1 className="title-timeline"> More about me</h1>
+                <h1 className="title-timeline"> Mais sobre mim</h1>
                 <div className="timeline-components">
                     <ExperiencesTimeLine />
                     <EducationTimeLine />

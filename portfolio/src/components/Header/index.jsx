@@ -20,7 +20,7 @@ const Header = () => {
                             nav.isActive ? "active-link" : "link"
                         }
                     >
-                        <p>About me</p>
+                        <p>Sobre mim</p>
                     </NavLink>
                     <NavLink
                         to={"/certificates"}
@@ -28,7 +28,7 @@ const Header = () => {
                             nav.isActive ? "active-link" : "link"
                         }
                     >
-                        <p>Skills & Certifications</p>
+                        <p>Skills & Certificados</p>
                     </NavLink>
                     <NavLink
                         to={"/projects"}
@@ -36,7 +36,7 @@ const Header = () => {
                             nav.isActive ? "active-link" : "link"
                         }
                     >
-                        <p>Projects</p>
+                        <p>Projetos</p>
                     </NavLink>
                     <NavLink
                         to={"/contact-me"}
@@ -44,7 +44,7 @@ const Header = () => {
                             nav.isActive ? "active-link" : "link"
                         }
                     >
-                        <p>Contact Me</p>
+                        <p>Contatos</p>
                     </NavLink>
                     <div className="icons">
                         <a

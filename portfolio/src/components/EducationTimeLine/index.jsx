@@ -3,28 +3,27 @@ import TimelineCard from "../TimelineCard";
 
 import "./style.css";
 
-
 const EducationTimeLine = () => {
     return (
         <div className="education-container">
             <div className="top-title-education">
                 <IoMdSchool />
-                <p>Let's know a little about my backgrounds...</p>
+                <p>Vamos saber um pouco mais sobre minhas formações...</p>
             </div>
             <TimelineCard
-                title={"Computer Technician"}
+                title={"Técnico em informática"}
                 date={"2017 - 2019"}
-                company={"Federal Institute of Fluminense"}
+                company={"Institudo Federal Fluminenze"}
                 description={
-                    "Participation in an extracurricular project in the field of robotics that was selected to be presented at the Robotics Exhibition, organized by the Brazilian Robotics Organization (OBR) in João Pessoa - PB."
+                    "Participação em um projeto extracurricular de robótica que foi selecionado para ser apresentado na Organização brasileira de robótica em João Pessoa - PB."
                 }
             />
             <TimelineCard
-                title={"Bachelor of Information Systems"}
+                title={"Bacharelado em sistemas de informação"}
                 date={"05/2022 - 12/2025"}
-                company={"Cruzeiro do Sul University"}
+                company={"Universidade Cruzeiro do Sul"}
                 description={
-                    "Involvement in extracurricular projects and events related to the technology field and academic area."
+                    "Envolvimento em projetos extracurriculares, na área de tecnologia e na área acadêmica."
                 }
             />
         </div>

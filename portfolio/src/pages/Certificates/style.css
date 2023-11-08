@@ -1,1 +1,12 @@
+.skills-container {
+    display: flex;
+    padding: 10px;
+}
 
+.certificates-container {
+    padding: 10px;
+}
+
+.two-cards {
+    display: flex;
+}

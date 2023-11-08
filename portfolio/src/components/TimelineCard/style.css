@@ -6,6 +6,7 @@
     border: 1px solid rgba(255, 255, 255, 0.089);
     padding: 20px;
     margin-top: 10px;
+    width: 100%;
     border-left: 4px solid var(--primary-color);
     @media (max-width: 1020px) {
         padding: 15px;
@@ -83,16 +84,20 @@
 .description {
     display: flex;
     justify-content: left;
-    width: 80%;
+    width: 100%;
     margin-top: 20px;
+    margin-bottom: 20px;
     @media (max-width: 1020px) {
         width: 100%;
     }
 }
 
+.skills {
+    align-self: flex-end;
+    margin-top: auto; /* Isso forçará as habilidades para a parte inferior, independentemente do conteúdo */
+}
+
 .skills-title {
-    display: flex;
-    align-items: center;
     color: var(--primary-color);
     font-size: 15px;
     font-weight: 600;
@@ -106,11 +111,7 @@
 }
 
 .skills {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
     font-size: 13px;
-    margin-top: 20px;
     color: white;
     @media (max-width: 1020px) {
         font-size: 12px;

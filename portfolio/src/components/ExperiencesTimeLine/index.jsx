@@ -8,42 +8,46 @@ const ExperiencesTimeLine = () => {
         <div className="experiences-container">
             <div className="top-title">
                 <BsFillBriefcaseFill />
-                <p>Let's know a little about my professional experiences...</p>
+                <p>
+                    Vamos saber um pouco mais sobre minhas experiências
+                    profissionais...
+                </p>
             </div>
             <div className="cards">
                 <TimelineCard
                     title={"Full stack developer"}
-                    date={"Current job - Since Sep 2022"}
+                    date={"Atual - 09/2022"}
                     company={"Minsait"}
                     description={
-                        "Development of automated applications and solutions, using Nest.js with TypeScript, Vue.js with Quasar, PostgreSQL database, and C# for RPA development. Experience with prototyping in Figma, code versioning with Git and GitLab, Scrum framework with sprints lasting about 2 weeks."
+                        "Desenvolvo e faço a sustentação de aplicações com tecnologias como Javascript, VueJS e NodeJS, Nestjs e Typescript. Trabalho com aplicações RPA (Autonomous Payment Receipt), com C#. Reparo bugs de projetos, analisando e buscando melhores implementações para a qualidade do produto. Atuei em uma equipe de Nível 4 para o cliente Petrobras, com manipulação de XML, banco de dados SQL e atendimentos de tickets de demandas específicas no framework Clarity."
                     }
                     skills={
-                        "Nestjs, Typescript, Vue.js, Quasar, Postgresql, C#, RPA, Figma, Git, Gitlab, Scrum"
+                        "Nestjs, Typescript, Vue.js, Quasar, Postgresql, C#, RPA, Figma, Git, Gitlab e Scrum"
                     }
                 />
                 <TimelineCard
-                    title={"Technical Support Level 2 "}
+                    title={"Suporte técnico N2"}
                     date={"03/2022 - 09/2022"}
                     company={"Minsait"}
                     description={
-                        "Provided technical support under the contract with Petrobras client, advanced-level assistance, resolution of support tickets, and escalation of demands, goal-driven and metrics-oriented support, assistance with Microsoft Windows, Office 365 and 2016, Printers and print queues, servers, and internal platforms within the Petrobras company environment."
+                        "Suporte avançado para o cliente Petrobras realizei um o suporte em algumas aplicações com: Microsoft Office, servidores de impressão e de arquivos, terminal virtual, instalação de softwares e de drivers e Windows"
                     }
                     skills={
-                        "Teamwork, advanced-level assistance, escalation of demands, Microsoft Windows, Office 365 and 2016, Printers, Servers."
+                        "Trabalho em equipe, suporte de nível avançado, repasse de demandas, Microsoft Windows, Office 365 e 2016, impressoras, servidores."
                     }
                 />
                 <TimelineCard
-                    title={"Technical Support Level 1"}
+                    title={"Suporte técnico N1"}
                     date={"10/2020 - 02/2022"}
                     company={"Minsait"}
                     description={
-                        "Provided receptive-level technical support, focused on opening support tickets and escalating demands, service provided to Petrobras client, goal-driven and contract-related metrics-oriented assistance. Experience as the focal point of the customer service operation and as a back-end support for team supervision."
+                        "Suporte técnico ao cliente petrobras com tecnologias como: Active Directory, Microsoft Azure, Horizon, VMWare, criptografia AIP, acesso remoto, Microsoft Office e Windows"
                     }
                     skills={
-                        "Teamwork, customer support, receptive-level technical support, escalation of demands, Microsoft Windows, Office 365 and 2016."
+                        "Trabalho em equipe, suporte ao cliente, suporte receptivo, repasse de demandas, Microsoft Windows, Office 365 and 2016."
                     }
-                /></div>
+                />
+            </div>
         </div>
     );
 };

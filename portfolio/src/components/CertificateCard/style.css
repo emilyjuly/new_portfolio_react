@@ -1,52 +1,57 @@
 .container-certificate {
-  margin: 10px;
-  display: flex;
-  justify-content: left;
+    margin: 10px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: left;
 }
 
 .card {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.089);
-  color: white;
-  margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.089);
+    backdrop-filter: blur(30px);
+    background-color: rgba(187, 187, 187, 0.308);
+    color: white;
+    margin-top: 10px;
 }
 
 .certificate-img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
-  padding: 20px;
+    align-self: flex-start;
+    margin: auto;
+    width: 100%;
 }
 
 .informations {
-  backdrop-filter: blur(30px);
-  background-color: rgba(187, 187, 187, 0.308);
-  width: 50%;
-  border-left: 1px solid rgba(255, 255, 255, 0.089);
-  border-radius: 0px 10px 10px 0px;
-  padding: 10px;
+    width: 100%;
+    padding: 10px;
+    padding-left: 25px;
 }
 
 .title {
-  font-size: 27px;
+    font-size: 27px;
 }
 
 .description {
-  font-size: 13px;
-  color: rgb(200, 200, 200);
+    font-size: 13px;
+    color: rgb(200, 200, 200);
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
 }
 
 .skill-icon {
-  width: 40px;
-  height: 40px;
+    width: 40px;
+    height: 40px;
+    margin-left: -3px;
 }
 
 .date,
 .institution,
 .url {
-  font-size: 15px;
+    font-size: 15px;
+    margin-left: -3px;
 }

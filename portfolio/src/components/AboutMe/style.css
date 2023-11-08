@@ -25,6 +25,12 @@
     }
 }
 
+.apresentation-text {
+    margin-left: 20px;
+    margin-top: 25px;
+    color: rgb(198, 197, 199);
+}
+
 .text {
     display: flex;
     width: 30%;

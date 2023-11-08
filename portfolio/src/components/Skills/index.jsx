@@ -44,6 +44,12 @@ const Skills = () => {
                     title={"Quasar"}
                     color={"#1074d1"}
                 />
+                <SkillCard
+                    imgUrl={"/figma.png"}
+                    imgAlt={"logo figma"}
+                    title={"Figma"}
+                    color={"#B659FF"}
+                />
             </div>
             <div className="cards">
                 <SkillCard
@@ -69,6 +75,12 @@ const Skills = () => {
                     imgAlt={"logo git"}
                     title={"GIT"}
                     color={"#f05a2d"}
+                />
+                <SkillCard
+                    imgUrl={"/docker.png"}
+                    imgAlt={"logo docker"}
+                    title={"Docker"}
+                    color={"#006BC0"}
                 />
                 <SkillCard
                     imgUrl={"/html.png"}
