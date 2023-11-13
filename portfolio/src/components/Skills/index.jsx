@@ -7,7 +7,7 @@ const Skills = () => {
             <div className="title-skills">
                 <h1 className="skill-title">Skills</h1>
             </div>
-            <div className="cards">
+            <div className="cards-skills">
                 <SkillCard
                     imgUrl={"/js.png"}
                     imgAlt={"logo javascript"}
@@ -44,14 +44,8 @@ const Skills = () => {
                     title={"Quasar"}
                     color={"#1074d1"}
                 />
-                <SkillCard
-                    imgUrl={"/figma.png"}
-                    imgAlt={"logo figma"}
-                    title={"Figma"}
-                    color={"#B659FF"}
-                />
             </div>
-            <div className="cards">
+            <div className="cards-skills">
                 <SkillCard
                     imgUrl={"/reactjs.png"}
                     imgAlt={"logo reactjs"}
@@ -83,18 +77,13 @@ const Skills = () => {
                     color={"#006BC0"}
                 />
                 <SkillCard
-                    imgUrl={"/html.png"}
-                    imgAlt={"logo html"}
-                    title={"HTML"}
-                    color={"#FF7816"}
-                />
-                <SkillCard
-                    imgUrl={"/css-3.png"}
-                    imgAlt={"logo css 3"}
-                    title={"CSS"}
-                    color={"#2196F3"}
+                    imgUrl={"/figma.png"}
+                    imgAlt={"logo figma"}
+                    title={"Figma"}
+                    color={"#B659FF"}
                 />
             </div>
+
         </div>
     );
 };

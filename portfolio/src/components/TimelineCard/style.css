@@ -1,119 +1,118 @@
 .timeline-card {
-    display: flex;
-    flex-direction: column;
-    backdrop-filter: blur(20px);
-    background-color: rgba(190, 189, 189, 0.308);
-    border: 1px solid rgba(255, 255, 255, 0.089);
-    padding: 20px;
-    margin-top: 10px;
-    width: 100%;
-    border-left: 4px solid var(--primary-color);
-    @media (max-width: 1020px) {
-        padding: 15px;
-    }
+  display: flex;
+  flex-direction: column;
+  backdrop-filter: blur(20px);
+  background-color: rgba(190, 189, 189, 0.308);
+  border: 1px solid rgba(255, 255, 255, 0.089);
+  padding: 20px;
+  margin-top: 10px;
+  width: 100%;
+  @media (max-width: 1020px) {
+    padding: 15px;
+  }
 }
 
 .card-title {
-    display: flex;
-    justify-content: space-between;
-    @media (max-width: 1020px) {
-        flex-direction: column;
-    }
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 1020px) {
+    flex-direction: column;
+  }
 }
 
 .card-title h1 {
-    display: flex;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+  @media (max-width: 1020px) {
+    font-size: 18px;
     align-items: center;
-    font-size: 20px;
-    color: white;
-    font-weight: 500;
-    @media (max-width: 1020px) {
-        font-size: 18px;
-        align-items: center;
-    }
+  }
 }
 
 .date {
-    display: flex;
-    margin-left: 10px;
-    @media (max-width: 1020px) {
-        margin-left: 0px;
-        margin-top: 5px;
-        align-items: center;
-    }
+  display: flex;
+  align-items: center;
+  @media (max-width: 1020px) {
+    margin-left: 0px;
+    margin-top: 5px;
+    align-items: center;
+  }
 }
 
 .date svg {
-    color: var(--primary-color);
-    font-size: 20px;
-    margin-right: 10px;
-    @media (max-width: 1020px) {
-        font-size: 16px;
-        margin-right: 5px;
-    }
+  color: var(--primary-color);
+  font-size: 16px;
+  margin-right: 3px;
+  @media (max-width: 1020px) {
+    font-size: 16px;
+    margin-right: 5px;
+  }
 }
 
 .date p {
-    font-size: 14px;
-    color: white;
-    @media (max-width: 1020px) {
-        font-size: 13px;
-    }
+  font-size: 13px;
+  color: rgb(197, 197, 197);
+  @media (max-width: 1020px) {
+    font-size: 13px;
+  }
 }
 
 .company {
-    display: flex;
-    align-items: center;
-    justify-content: right;
-    color: white;
-    @media (max-width: 1020px) {
-        justify-content: left;
-        font-size: 13px;
-    }
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  color: white;
+  @media (max-width: 1020px) {
+    justify-content: left;
+    font-size: 13px;
+  }
 }
 
 .company svg {
-    color: var(--primary-color);
-    font-size: 16px;
-    margin-right: 10px;
-    @media (max-width: 1020px) {
-        font-size: 14px;
-    }
+  color: var(--primary-color);
+  font-size: 16px;
+  margin-right: 10px;
+  @media (max-width: 1020px) {
+    font-size: 14px;
+  }
 }
 
 .description {
-    display: flex;
-    justify-content: left;
+  display: flex;
+  justify-content: left;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  @media (max-width: 1020px) {
     width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    @media (max-width: 1020px) {
-        width: 100%;
-    }
+  }
 }
 
 .skills {
-    align-self: flex-end;
-    margin-top: auto; /* Isso forçará as habilidades para a parte inferior, independentemente do conteúdo */
+  align-self: flex-end;
+  margin-top: auto; /* Isso forçará as habilidades para a parte inferior, independentemente do conteúdo */
 }
 
 .skills-title {
-    color: var(--primary-color);
-    font-size: 15px;
-    font-weight: 600;
-    border-bottom: 1px solid var(--border-color);
+  color: var(--primary-color);
+  font-size: 15px;
+  font-weight: 600;
+  border-bottom: 1px solid var(--border-color);
 }
 
 .skills-title svg {
-    font-size: 17px;
-    font-weight: 600;
-    margin-right: 5px;
+  font-size: 17px;
+  font-weight: 600;
+  margin-right: 5px;
 }
 
 .skills {
-    font-size: 13px;
-    color: white;
-    @media (max-width: 1020px) {
-        font-size: 12px;
-    }
+  font-size: 13px;
+  color: white;
+  @media (max-width: 1020px) {
+    font-size: 12px;
+  }
 }

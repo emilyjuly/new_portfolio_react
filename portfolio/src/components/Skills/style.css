@@ -1,27 +1,30 @@
 .container-skills {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    @media (max-width: 1020px) {
-        padding: 5px;
-    }
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  @media (max-width: 1020px) {
+    padding: 5px;
+  }
 }
 
-.cards {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    @media (max-width: 1020px) {
-        flex-direction: column;
-        justify-content: center;
-    }
+.cards-skills {
+  display: flex;
+  width: 100%;
+  @media (max-width: 1020px) {
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 .skill-title {
-    color: white;
-    margin-left: 20px;
-    letter-spacing: 1.5px;
-    @media (max-width: 1020px) {
-        font-size: 20px;
-    }
+  color: white;
+  margin-left: 20px;
+  letter-spacing: 1.5px;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  @media (max-width: 1020px) {
+    font-size: 20px;
+  }
 }

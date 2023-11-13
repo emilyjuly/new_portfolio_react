@@ -25,9 +25,10 @@ const CertificateCard = ({
                             className="skill-icon"
                         />
                     </div>
-                    <p className="date">Concluído em: {date}</p>
                     <p className="institution">Emitido por: {institution}</p>
                     <p className="url">{url_plataform}</p>
+                    <p className="date-course">Concluído em: {date}</p>
+
                 </div>
             </div>
         </div>
