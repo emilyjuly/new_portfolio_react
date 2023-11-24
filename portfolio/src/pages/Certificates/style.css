@@ -9,4 +9,7 @@
 .two-cards {
   display: flex;
   justify-content: center;
+  @media (max-width: 1020px) {
+    flex-direction: column;
+  }
 }

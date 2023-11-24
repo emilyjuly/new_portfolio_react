@@ -33,4 +33,7 @@
 .cards {
   display: flex;
   justify-content: space-between;
+  @media (max-width: 1020px) {
+    flex-direction: column;
+  }
 }

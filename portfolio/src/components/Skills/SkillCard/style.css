@@ -8,7 +8,7 @@
   flex-direction: column;
   margin: 5px;
   @media (max-width: 1020px) {
-    width: 55%;
+    width: 90%;
     position: relative;
   }
 }
