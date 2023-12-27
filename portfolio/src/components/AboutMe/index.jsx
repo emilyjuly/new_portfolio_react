@@ -8,11 +8,11 @@ const AboutMe = () => {
                 <h1 className="title-text">{`Olá, eu sou Emily July!`}</h1>
                 <h3 className="subtitle-text">
                     Desenvolvedora{" "}
-                    <span className="developer">full stack...</span>
+                    <span className="developer">frontend...</span>
                 </h3>
                 <p className="content-text">{`Vamos saber um pouco mais sobre mim?`}</p>
                 <p className="apresentation-text">
-                    {`Eu sou desenvolvedora full stack com experiência profissional utilizando Javascript e seus frameworks. Eu também sou técnica em informática e estou cursando minha graduação em sistemas de informação. Possuo experiência com diversas ferramentas usadas no ciclo de desenvolvimento de software e as soft skills necessárias para um bom desenvolvedor!`}
+                    {`Eu sou desenvolvedora frontend, utilizando o framework Vuejs, realizando a produção de páginas web, seguindo protótipos do Figma e priorizando a experiência do usuário.`}
                 </p>
             </div>
             <div className="container-profile">
