@@ -30,6 +30,11 @@
   max-width: 500px;
   margin-left: 20px;
   color: rgb(198, 197, 199);
+  @media (max-width: 1020px) {
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 100%;
+  }
 }
 
 .text {
