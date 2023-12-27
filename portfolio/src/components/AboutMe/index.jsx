@@ -5,7 +5,7 @@ const AboutMe = () => {
         <div className="container-about">
             <div className="text">
                 <p className="welcome">Bem vindo ao meu portfólio</p>
-                <h1 className="title-text">{`Olá, eu sou Emily July!`}</h1>
+                <h1 className="title-text">{`Olá, eu sou Emily!`}</h1>
                 <h3 className="subtitle-text">
                     Desenvolvedora{" "}
                     <span className="developer">frontend...</span>

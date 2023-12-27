@@ -1,51 +1,50 @@
 .container-skill-card {
+  position: relative;
+  background-color: rgba(3, 4, 7, 0.75);
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  border: 1px solid var(--border-color);
+  flex-direction: column;
+  margin: 5px;
+  @media (max-width: 1020px) {
+    width: 90%;
     position: relative;
-    background-color: rgba(3, 4, 7, 0.75);
-    padding: 20px;
-    border-radius: 10px;
-    width: 13%;
-    border: 1px solid var(--border-color);
-    flex-direction: column;
-    margin-left: 20px;
-    margin-top: 5px;
-    @media (max-width: 1020px) {
-        width: 55%;
-        position: relative;
-    }
+  }
 }
 
 .logo-title {
-    display: flex;
-    justify-content: space-between;
-    height: 60%;
+  display: flex;
+  justify-content: space-between;
+  height: 60%;
 }
 
 .logo-title img {
-    width: 45px;
-    height: auto;
-    @media (max-width: 1020px) {
-        width: 30px;
-    }
+  width: 30px;
+  height: 30px;
+  @media (max-width: 1020px) {
+    width: 30px;
+  }
 }
 
 .logo-title h1 {
-    font-size: 15px;
-    @media (max-width: 1020px) {
-        font-size: 12px;
-    }
+  font-size: 13px;
+  @media (max-width: 1020px) {
+    font-size: 12px;
+  }
 }
 
 .container-line {
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 30%;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 30%;
 }
 
 .line {
-    display: flex;
-    align-items: baseline;
-    height: 6px;
-    width: 100%;
+  display: flex;
+  align-items: baseline;
+  height: 4px;
+  width: 100%;
 }

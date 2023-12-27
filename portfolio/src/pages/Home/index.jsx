@@ -14,7 +14,7 @@ const Home = () => {
         return shapes;
     };
     return (
-        <div>
+        <div className="home-container">
             <AboutMe />
             <div className="timelines">
                 <h1 className="title-timeline"> Mais sobre mim</h1>

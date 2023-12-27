@@ -13,7 +13,7 @@ const EducationTimeLine = () => {
             <TimelineCard
                 title={"Técnico em informática"}
                 date={"2017 - 2019"}
-                company={"Institudo Federal Fluminenze"}
+                company={"Institudo Federal Fluminense"}
                 description={
                     "Participação em um projeto extracurricular de robótica que foi selecionado para ser apresentado na Organização brasileira de robótica em João Pessoa - PB."
                 }

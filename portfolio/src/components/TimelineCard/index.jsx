@@ -6,16 +6,19 @@ const TimelineCard = ({ title, date, company, description, skills }) => {
     return (
         <div className="timeline-card">
             <div className="card-title">
-                <h1>{title}</h1>
-                <div className="date">
-                    <BiTime />
-                    <p>{date}</p>
+                <div>
+                    <h1>{title}</h1>
+                    <div className="date">
+                        <BiTime />
+                        <p>{date}</p>
+                    </div>
                 </div>
+                <div>
+                    <p className="company">
+                        <FaRegBuilding />
+                        {company}
+                    </p></div>
             </div>
-            <p className="company">
-                <FaRegBuilding />
-                {company}
-            </p>
             <p className="description">{description}</p>
             <p className="skills">
                 {skills ? (
