@@ -11,7 +11,7 @@ const ContactMe = () => {
         <p className="name-client">
           {" "}
           Emily July
-          <span className="profissao">Desenvolvedora Full Stack</span>
+          <span className="profissao">Desenvolvedora frontend</span>
           <span className="email">emilyjulygd@gmail.com</span>
         </p>
         <div className="social-media">
