@@ -70,6 +70,7 @@
   justify-content: right;
   width: 80%;
   @media (max-width: 1020px) {
+    margin-top: 100px;
     width: 100%;
   }
 }
