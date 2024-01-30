@@ -26,14 +26,14 @@ const Header = () => {
           >
             <p>Skills & Certificados</p>
           </NavLink>
-          {/* <NavLink
-                        to={"/projects"}
-                        className={(nav) =>
-                            nav.isActive ? "active-link" : "link"
-                        }
-                    >
-                        <p>Projetos</p>
-                    </NavLink> */}
+          <NavLink
+              to={"/projects"}
+              className={(nav) =>
+                  nav.isActive ? "active-link" : "link"
+              }
+          >
+            <p>Projetos</p>
+          </NavLink>
           <NavLink
             to={"/contact-me"}
             className={(nav) => (nav.isActive ? "active-link" : "link")}
