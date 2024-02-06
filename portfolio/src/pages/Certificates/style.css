@@ -6,9 +6,10 @@
   padding: 5px;
 }
 
-.two-cards {
-  display: flex;
-  justify-content: center;
+.grid-cards {
+  display: grid;
+  grid-template-columns: 400px 400px 400px 400px;
+  justify-content: space-around;
   @media (max-width: 1020px) {
     flex-direction: column;
   }
