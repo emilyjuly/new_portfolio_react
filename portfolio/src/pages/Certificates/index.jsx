@@ -11,6 +11,19 @@ const Certificates = () => {
 
       <div className="grid-cards">
           <CertificateCard
+              url={"/certificates/design-system-certificate.png"}
+              alt={"Certificado de Design System"}
+              title={"Design System"}
+              description={
+                  "Certificado de conclusão do curso de design system com tailiwind css e storybook, distrubuído pela plataforma alura."
+              }
+              icon_url={"/icons-skills/design.png"}
+              icon_alt={"ux design icon"}
+              date={"13/03/2024"}
+              institution={"Alura"}
+              url_plataform={"https://cursos.alura.com.br"}
+          />
+          <CertificateCard
               url={"/certificates/ux-certificate.png"}
               alt={"Certificado de UX"}
               title={"User Experience"}
@@ -30,7 +43,7 @@ const Certificates = () => {
               description={
                   "Certificado de conclusão do curso de fundamentos de Linux, distrubuído pela plataforma FIAP, na sua modalidade de Nano courses."
               }
-              icon_url={"/linux.png"}
+              icon_url={"certificates-icons/linux.png"}
               icon_alt={"linux icon"}
               date={"03/01/2024"}
               institution={"FIAP"}
@@ -43,7 +56,7 @@ const Certificates = () => {
           description={
             "Certificado de conclusão do curso de Docker ministrado por Andre Iacono, através da plataforma de cursos Udemy. Me fornecendo conhecimentos sobre a ferramenta Docker."
           }
-          icon_url={"/docker.png"}
+          icon_url={"certificates-icons/docker.png"}
           icon_alt={"docker icon"}
           date={"06/11/23"}
           institution={"Udemy"}
@@ -95,7 +108,7 @@ const Certificates = () => {
           description={
             "Certificado de conclusão do curso de fundamentos do C#, da plataforma Balta.io. Curso ministrado pelo Andre Baltieri, MVP da Microsoft."
           }
-          icon_url={"/c-sharp.png"}
+          icon_url={"certificates-icons/c-sharp.png"}
           icon_alt={"c sharp ícone"}
           date={"01/03/23"}
           institution={"Balta IO"}
@@ -108,7 +121,7 @@ const Certificates = () => {
           description={
             "Certificado do curso de testes automatizados da plataforma Udemy. O instrutor do curso disponibilizou execelente conteúdo sobre testes de modo geral."
           }
-          icon_url={"teste.png"}
+          icon_url={"certificates-icons/teste.png"}
           icon_alt={"teste ícone"}
           date={"26/12/22"}
           institution={"Udemy"}
@@ -134,7 +147,7 @@ const Certificates = () => {
               description={
                   "Certificado de conclusão do curso de conceitos e melhores práticas em banco de dados PostgreSQL, realizado na plataforma DIO."
               }
-              icon_url={"/postgresql.png"}
+              icon_url={"certificates-icons/postgresql.png"}
               icon_alt={"postgresql icon"}
               date={"27/07/22"}
               institution={"DIO"}
@@ -147,7 +160,7 @@ const Certificates = () => {
               description={
                   "Certificação de boas práticas de cibersegurança, emitida pelo Instituto Brasileiro de Cibersegurança, onde mostrei proficiência nos conceitos de cibersegurança."
               }
-              icon_url={"/si.png"}
+              icon_url={"certificates-icons/si.png"}
               icon_alt={"si icon"}
               date={"08/05/22"}
               institution={"IBSEC"}

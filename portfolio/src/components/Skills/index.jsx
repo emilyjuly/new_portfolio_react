@@ -9,31 +9,31 @@ const Skills = () => {
       </div>
       <div className="cards-skills">
         <SkillCard
-          imgUrl={"/js.png"}
+          imgUrl={"certificates-icons/js.png"}
           imgAlt={"logo javascript"}
           title={"JavaScript"}
           color={"#ffdf00"}
         />
         <SkillCard
-          imgUrl={"/ts.png"}
+          imgUrl={"certificates-icons/ts.png"}
           imgAlt={"logo typescript"}
           title={"Typescript"}
           color={"#3178C6"}
         />
         <SkillCard
-          imgUrl={"/nest.png"}
+          imgUrl={"certificates-icons/nest.png"}
           imgAlt={"logo nestjs"}
           title={"Nestjs"}
           color={"#da224a"}
         />
         <SkillCard
-          imgUrl={"/nodejs.png"}
+          imgUrl={"certificates-icons/nodejs.png"}
           imgAlt={"logo nodejs"}
           title={"Nodejs"}
           color={"#3B8739"}
         />
         <SkillCard
-          imgUrl={"/vuejs.png"}
+          imgUrl={"certificates-icons/vuejs.png"}
           imgAlt={"logo vuejs"}
           title={"Vuejs"}
           color={"#54ec93"}
@@ -41,31 +41,31 @@ const Skills = () => {
       </div>
       <div className="cards-skills">
         <SkillCard
-          imgUrl={"/reactjs.png"}
+          imgUrl={"certificates-icons/reactjs.png"}
           imgAlt={"logo reactjs"}
           title={"Reactjs"}
           color={"#38d1d6"}
         />
         <SkillCard
-          imgUrl={"/c-sharp.png"}
+          imgUrl={"certificates-icons/c-sharp.png"}
           imgAlt={"logo c#"}
           title={"C#"}
           color={"#B14796"}
         />
         <SkillCard
-          imgUrl={"/git.png"}
+          imgUrl={"certificates-icons/git.png"}
           imgAlt={"logo git"}
           title={"GIT"}
           color={"#f05a2d"}
         />
         <SkillCard
-          imgUrl={"/docker.png"}
+          imgUrl={"certificates-icons/docker.png"}
           imgAlt={"logo docker"}
           title={"Docker"}
           color={"#006BC0"}
         />
         <SkillCard
-          imgUrl={"/figma.png"}
+          imgUrl={"certificates-icons/figma.png"}
           imgAlt={"logo figma"}
           title={"Figma"}
           color={"#B659FF"}
