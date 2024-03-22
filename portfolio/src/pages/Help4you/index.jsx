@@ -3,7 +3,9 @@ import "./style.css";
 const Help4You = () => {
     return (
         <div className="help4you-container">
-            <img src="/help4you.png" alt="Logo do projeto help 4 you" height={400}/>
+          <div className="help4you-img">
+            <img src="/help4you.png" alt="Logo do projeto help 4 you" height={300}/>
+          </div>
           <div className="help4you-text-container">
             <span className="help4you-title">
               <img src="/aviso.png" alt="Boneco segurando um megafone" height={50}/>
