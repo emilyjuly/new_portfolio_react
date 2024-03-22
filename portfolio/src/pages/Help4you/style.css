@@ -41,7 +41,7 @@
 .help4you-img {
   display: flex;
   justify-content: center;
-  align-items: center;S
+  align-items: center;
   @media (max-width: 1020px) {
     display: flex;
     justify-content: center;

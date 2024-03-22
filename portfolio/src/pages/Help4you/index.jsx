@@ -18,7 +18,7 @@ const Help4You = () => {
                   <li>Técnicas para conseguir mais visibilidade no Linkedin.</li>
                   <li>Acompanhamento individual.</li>
             </span>
-            <span className="help4you-text">Com duração de 3 meses, as pessoas selecionadas irão passar por um processo de mentoria comigo, onde irei me disponibilizar a acompanhar e direcionar para seguir no mercado de trabalho como desenvolvedor de software.</span>
+            <span className="help4you-text">Com duração de 3 meses, as pessoas selecionadas irão passar por um processo de acompanhamento comigo, onde irei me disponibilizar a acompanhar e direcionar para seguir no mercado de trabalho como desenvolvedor de software.</span>
             <span>Mais detalhes serão divulgados em breve...</span>
             <span className="help4you-gratis">100% Gratuito</span>
           </div>
