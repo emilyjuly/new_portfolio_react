@@ -1,4 +1,3 @@
-import { BsLinkedin, BsGithub } from "react-icons/bs";
 import { Link, NavLink } from "react-router-dom";
 
 import "./style.css";
@@ -33,6 +32,14 @@ const Header = () => {
               }
           >
             <p>Projetos</p>
+          </NavLink>
+          <NavLink
+              to={"/help-4-you"}
+              className={(nav) =>
+                  nav.isActive ? "active-link" : "link"
+              }
+          >
+            <p>Help4You</p>
           </NavLink>
           <NavLink
             to={"/contact-me"}
