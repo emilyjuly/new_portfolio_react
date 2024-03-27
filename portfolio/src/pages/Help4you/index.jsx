@@ -1,7 +1,7 @@
 import "./style.css";
 
 const redirectToLink = () => {
-    window.open("#", "_blank");
+    window.open("https://forms.gle/KTmtXhwS6DyUH31G7", "_blank");
 };
 
 const Help4You = () => {
