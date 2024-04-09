@@ -15,7 +15,7 @@ const Certificates = () => {
               alt={"Certificado de Design System"}
               title={"Design System"}
               description={
-                  "Certificado de conclusão do curso de design system com tailiwind css e storybook, distrubuído pela plataforma alura."
+                  "Certificado de conclusão da formação de design system com tailiwind css e storybook, distrubuído pela plataforma alura."
               }
               icon_url={"/icons-skills/design.png"}
               icon_alt={"ux design icon"}

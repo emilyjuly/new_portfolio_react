@@ -47,10 +47,10 @@ const Skills = () => {
           color={"#38d1d6"}
         />
         <SkillCard
-          imgUrl={"certificates-icons/c-sharp.png"}
-          imgAlt={"logo c#"}
-          title={"C#"}
-          color={"#B14796"}
+          imgUrl={"certificates-icons/nuxt.svg"}
+          imgAlt={"logo nuxt"}
+          title={"Nuxt"}
+          color={"#4aca4a"}
         />
         <SkillCard
           imgUrl={"certificates-icons/git.png"}
@@ -59,10 +59,10 @@ const Skills = () => {
           color={"#f05a2d"}
         />
         <SkillCard
-          imgUrl={"certificates-icons/docker.png"}
-          imgAlt={"logo docker"}
-          title={"Docker"}
-          color={"#006BC0"}
+          imgUrl={"certificates-icons/storybook.png"}
+          imgAlt={"logo storybook"}
+          title={"Storybook"}
+          color={"#c00086"}
         />
         <SkillCard
           imgUrl={"certificates-icons/figma.png"}
