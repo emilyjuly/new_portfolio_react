@@ -4,6 +4,16 @@ import ProjectCard from "../../components/ProjectCard/index.jsx";
 const Projects = () => {
   return (
     <div className="container-projects">
+        <ProjectCard
+            urlImage={"projects/project-watch-a-movie.png"}
+            link={"https://watchamovie-indol.vercel.app/"}
+            title={"Watch a Movie"}
+            description={
+                "Uma página web que consome informações sobre filmes, da API do TMDB."
+            }
+            resources={"REACT - REDUX - AXIOS - FIREBASE - API - VITE"}
+            linkRepo={"https://github.com/emilyjuly/watchamovie"}
+        />
       <ProjectCard
         urlImage={"projects/project-july-invest.png"}
         link={"https://master--july-invest.netlify.app/"}
@@ -36,7 +46,7 @@ const Projects = () => {
       />
       <ProjectCard
         urlImage={"projects/project-map-img.png"}
-        link={"https://sub-select.netlify.app/"}
+        link={"https://ip-address-july.netlify.app/"}
         title={"IP ADDRESS TRACKER"}
         description={"Um buscador de localização através do IP informado."}
         resources={"VUE 3 - NUXT 3 - PRIMEVUE - PINIA - API - VITE"}
