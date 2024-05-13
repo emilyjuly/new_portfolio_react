@@ -3,7 +3,7 @@ Esse é o meu novo portfólio com atualizações sobre minhas experiências prof
 
 <hr>
 
-<a href="https://new-portfolio-emilyjulys-projects.vercel.app/projects" target="_blank"> - Acesse aqui 🔗</a>
+<a href="https://new-portfolio-emilyjulys-projects.vercel.app" target="_blank"> - Acesse aqui 🔗</a>
 
 <p align="center" style="margin-top: 10px">
   <img src="./image.png" alt="Default Image" style="width: 100%"/>
