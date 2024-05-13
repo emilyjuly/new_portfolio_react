@@ -19,7 +19,7 @@ const Projects = () => {
         link={"https://master--july-invest.netlify.app/"}
         title={"July Invest"}
         description={
-          "Uma landing page que disponibiliza informações sobre ações de bolsa da valores, através do consumo de API."
+          "Uma landing page que disponibiliza informações sobre ações da bolsa de valores, através do consumo de API."
         }
         resources={"VUE 3 - NUXT 3 - PRIMEVUE - PINIA - API - PRIMEFLEX"}
         linkRepo={"https://github.com/emilyjuly/july-invest"}
