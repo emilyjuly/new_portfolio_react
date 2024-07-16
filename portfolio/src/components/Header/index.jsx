@@ -34,14 +34,6 @@ const Header = () => {
             <p>Projetos</p>
           </NavLink>
           <NavLink
-              to={"/help-4-you"}
-              className={(nav) =>
-                  nav.isActive ? "active-link" : "link"
-              }
-          >
-            <p>Help4You</p>
-          </NavLink>
-          <NavLink
             to={"/contact-me"}
             className={(nav) => (nav.isActive ? "active-link" : "link")}
           >
