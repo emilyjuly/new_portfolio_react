@@ -15,6 +15,16 @@ const Projects = () => {
         linkRepo={'https://github.com/emilyjuly/bosshe-cars'}
       />
       <ProjectCard
+        urlImage={'projects/project-speech-to-notes.png'}
+        link={'https://speech-to-text-notes.vercel.app/'}
+        title={'Speech to Notes'}
+        description={
+          'Uma aplicação para gerenciar e criar notas usando transcrição de voz. É possível criar uma nota, editar, apagar ou fazer download dela. Também é possível classificar uma nota usando a tag de estado (Novo, Urgente...) e alterar a cor das notas ou da fonte. Todas as notas e preferências de cores ficam salvas no local storage do navegador, ou seja, nada é perdido ao atualizar a tela.'
+        }
+        resources={'NUXT - VUE 3 - PINIA - PRIMEVUE - Transcrição de voz'}
+        linkRepo={'https://github.com/emilyjuly/speech-to-text-notes'}
+      />
+      <ProjectCard
         urlImage={'projects/project-july-invest.png'}
         link={'https://master--july-invest.netlify.app/'}
         title={'July Invest'}
