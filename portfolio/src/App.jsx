@@ -1,13 +1,15 @@
-import RoutesApp from "./routes";
-
-import "./App.css";
+import RoutesApp from './routes';
+import LocaleProvider from './context/LocaleContext';
+import './App.css';
 
 function App() {
-    return (
-        <div className="container">
-            <RoutesApp />
-        </div>
-    );
+  return (
+    <LocaleProvider>
+      <div className="container">
+        <RoutesApp />
+      </div>
+    </LocaleProvider>
+  );
 }
 
 export default App;
