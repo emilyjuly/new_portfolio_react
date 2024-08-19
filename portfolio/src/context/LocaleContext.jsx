@@ -10,7 +10,7 @@ const LocaleProvider = ({ children }) => {
   const [messages, setMessages] = useState({});
 
   useEffect(() => {
-    if (browserLocale !== 'pt') {
+    if (browserLocale !== 'pt-BR') {
       import(`../locales/${locale}.json`)
         .then((messages) => {
           setMessages(messages.default);
