@@ -8,7 +8,6 @@ const Header = () => {
   const { locale, setLocale } = useContext(LocaleContext);
 
   const toggleLocale = () => {
-    console.log('old locale', locale);
     if (locale === 'en-US') {
       setLocale('pt-BR');
     } else {
