@@ -1,3 +1,75 @@
 {
-  "app.welcome": "Welcome to my portfolio"
+  "app.welcome": "Welcome to my portfolio",
+  "aboutme.greeting": "Hello, I'm Emily July!",
+  "aboutme.subtitle1": "Frontend",
+  "aboutme.subtitle2": " developer...",
+  "aboutme.intro": "Let's learn a little more about me?",
+  "aboutme.description": "I'm a frontend developer using the Vuejs and Reactjs frameworks, creating web pages, following Figma prototypes, and prioritizing the user experience.",
+  "header.aboutme": "About me",
+  "header.skills": "Skills & Certificates",
+  "header.projects": "Projects",
+  "header.contact": "Contacts",
+  "experiences.title": "More about me",
+  "experiences.intro": "Let's learn a little more about my professional experiences...",
+  "timeline.frontendDeveloper.date": "12/2023 - Present",
+  "timeline.frontendDeveloper.description": "I work on implementing new features and fixing bugs on the web CRM platform of Unicred do Brasil credit cooperative. Using the Vuejs framework with Vuetify. Employing Kanban for team agility, with daily stand-ups and weekly alignment meetings. Interaction with the agility team, UX, QA, Product Owners, and Tech Leaders for alignment and smooth development flow. I also use Reactjs to develop landing pages for the marketing campaigns of the cooperatives.",
+
+  "timeline.frontendDeveloper.skills": "Vuejs, Vuetify, Figma, Jest, Scrum, Git, Azure, Docker, teamwork, interaction with other departments",
+
+  "timeline.fullstackDeveloper.description": "I develop and maintain applications with technologies such as Javascript, VueJS, NodeJS, Nestjs, and Typescript. Work with RPA (Autonomous Payment Receipt) applications using C#. Fix bugs in projects, analyze and seek better implementations for product quality. Worked in a Level 4 team for the Petrobras client, handling XML, SQL databases, and specific demand tickets in the Clarity framework.",
+  "timeline.fullstackDeveloper.skills": "Nestjs, Typescript, Vue.js, Quasar, Postgresql, C#, RPA, Figma, Git, Gitlab, Scrum",
+
+  "timeline.technicalSupport.title": "Technical Support N1, N2 and N3",
+  "timeline.technicalSupport.description": "Advanced support for the Petrobras client, providing support for applications including: Microsoft Office, print and file servers, virtual terminal, software and driver installation, and Windows. In the Level 4 team, I managed XML files and provided support for an internal Petrobras platform using the Clarity framework. I also worked with SQL database manipulation.",
+
+  "timeline.technicalSupport.skills": "Teamwork, customer support, inbound support, demand handoff, Microsoft Windows, Office 365 and 2016.",
+
+  "education.title": "More about my education",
+  "education.intro": "Let's learn a little more about my educational background...",
+  "timeline.technicalEducation.title": "Technical in Computer Science",
+  "timeline.technicalEducation.description": "Participation in an extracurricular robotics project selected for presentation at the Brazilian Robotics Organization in João Pessoa - PB.",
+
+  "timeline.bachelorEducation.title": "Bachelor's in Information Systems",
+  "timeline.bachelorEducation.description": "Involvement in extracurricular projects, both in technology and academic areas.",
+
+  "certificates.title": "Certificates",
+  "certificate.designResponsive.title": "Responsive Design",
+  "certificate.designResponsive.description": "Certification in responsive design obtained after executing various projects demonstrating my knowledge through the Free Code Camp platform.",
+  "certificate.designSystem.title": "Design System",
+  "certificate.designSystem.description": "Completion certificate for the Design System training with Tailwind CSS and Storybook, distributed by the Alura platform.",
+  "certificate.ux.title": "User Experience",
+  "certificate.ux.description": "Completion certificate for the User Experience course, provided by FIAP, in its Nano courses format.",
+  "certificate.linuxFundamentals.title": "Linux Fundamentals",
+  "certificate.linuxFundamentals.description": "Completion certificate for the Linux Fundamentals course, provided by FIAP, in its Nano courses format.",
+  "certificate.docker.title": "Docker",
+  "certificate.docker.description": "Completion certificate for the Docker course taught by Andre Iacono, through the Udemy platform. Provided knowledge on Docker tool.",
+  "certificate.rtl.title": "React Testing Library",
+  "certificate.rtl.description": "Completion certificate for the course Testing React Apps with React Testing Library (RTL), teaching how to use the testing library for React applications.",
+  "certificate.uxDesign.title": "UX Design",
+  "certificate.uxDesign.description": "Completion certificate for the UX Design & User Experience Design Course - Theory Only, on the Udemy course platform. Improved my skills in UX.",
+  "certificate.csharp.title": "Fundamentals of C#",
+  "certificate.csharp.description": "Completion certificate for the C# Fundamentals course from Balta.io. Course taught by Andre Baltieri, Microsoft MVP.",
+  "certificate.automatedTests.title": "Automated Testing",
+  "certificate.automatedTests.description": "Certificate for the Automated Testing course on the Udemy platform. The course instructor provided excellent content on testing in general.",
+  "certificate.english.title": "EF Set Certificate",
+  "certificate.english.description": "EF Set certification for English proficiency, where I scored 45/100 points based on my performance, placing me at B1 - Intermediate.",
+  "certificate.postgresql.title": "PostgreSQL Database",
+  "certificate.postgresql.description": "Completion certificate for the PostgreSQL database concepts and best practices course, conducted on the DIO platform.",
+  "certificate.cybersecurity.title": "Cybersecurity",
+  "certificate.cybersecurity.description": "Certification in cybersecurity best practices issued by the Brazilian Institute of Cybersecurity, demonstrating proficiency in cybersecurity concepts.",
+  "certificate.component.card": "Issued by: ",
+  "certificate.date.component.card": "Completed on: ",
+
+  "projects.quizTime.description": "A quiz with topics like frontend and backend, developed using Reactjs. It has level management using React's global state management and the browser's local storage. Responsive design using mobile-first approach, minimalist design model based on a Figma prototype.",
+
+  "projects.bossheCars.description": "A landing page for a car dealership, with a contact form integration that sends an email to the administrator, and also an admin area that allows editing the car catalog through integration with the Github API. Responsive design using mobile-first approach, modern interface with a top navigation menu and dark/light mode button.",
+
+  "projects.speechToNotes.title": "Speech to Notes",
+  "projects.speechToNotes.description": "An application for managing and creating notes using voice transcription. It is possible to create, edit, delete, or download a note. It is also possible to classify a note using the status tag (New, Urgent, etc.) and change the color of the notes or the font. All notes and color preferences are saved in the browser's local storage, meaning nothing is lost when refreshing the page.",
+
+  "projects.julyInvest.description": "A landing page providing information on stocks, funds, and BDRs from the stock exchange through API consumption. Displaying graphs using the Charts.js library, responsive page that integrates with Google's search API for details on each asset.",
+
+  "projects.ipAddressTracker.description": "A location search tool based on the provided IP address. With integration to the Leaflet library for map representation, displaying details about each location, this application supports responsive design.",
+
+  "projects.watchAMovie.description": "A web page that consumes movie information from the TMDB API. Providing a search for movies in the world's largest movie database, responsive design, with Firebase integration for storing recent searches."
 }

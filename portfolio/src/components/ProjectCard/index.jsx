@@ -1,5 +1,5 @@
-import "./style.css";
-import { BsGithub } from "react-icons/bs";
+import './style.css';
+import { BsGithub } from 'react-icons/bs';
 
 const ProjectCard = ({
   urlImage,
@@ -12,7 +12,9 @@ const ProjectCard = ({
   return (
     <div className="card-project">
       <div className="project-picture">
-        <img src={urlImage} alt="Imagem preview do projeto" />
+        <a href={link} target="_blank">
+          <img src={urlImage} alt="Imagem preview do projeto" />
+        </a>
       </div>
       <div className="info-container">
         <p className="project-infos">

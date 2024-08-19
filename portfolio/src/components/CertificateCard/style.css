@@ -53,3 +53,14 @@
 .url {
   font-size: 12px;
 }
+
+.url {
+  color: white;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.url:hover {
+  transition: 0.2s;
+  color: rgb(255, 77, 121);
+}

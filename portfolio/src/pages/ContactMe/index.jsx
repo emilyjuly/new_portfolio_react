@@ -1,17 +1,17 @@
-import { BsGithub } from "react-icons/bs";
-import "./style.css";
+import { BsGithub } from 'react-icons/bs';
+import './style.css';
 
 const ContactMe = () => {
   return (
     <div className="container-contact">
       <div className="card-client">
         <div className="user-picture">
-          <img src="/profile-2.jpg" alt="" />
+          <img src="/perfil.jpeg" alt="" />
         </div>
         <p className="name-client">
-          {" "}
+          {' '}
           Emily July
-          <span className="profissao">Desenvolvedora frontend</span>
+          <span className="profissao">Frontend Developer</span>
           <span className="email">emilyjulygd@gmail.com</span>
         </p>
         <div className="social-media">
@@ -29,6 +29,7 @@ const ContactMe = () => {
           </a>
           <a href="https://github.com/emilyjuly" target="_blank">
             <BsGithub />
+            <span className="tooltip-social">Github</span>
           </a>
         </div>
       </div>

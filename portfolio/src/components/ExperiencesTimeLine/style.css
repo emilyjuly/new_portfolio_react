@@ -1,3 +1,17 @@
+.title-timeline {
+  color: white;
+  border-bottom: 1px solid var(--primary-color);
+  font-size: 25px;
+  width: 30%;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  @media (max-width: 1020px) {
+    font-size: 20px;
+    letter-spacing: 0px;
+    width: 60%;
+  }
+}
+
 .experiences-container {
   display: flex;
   flex-direction: column;

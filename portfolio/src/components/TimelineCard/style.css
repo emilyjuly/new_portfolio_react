@@ -92,8 +92,9 @@
 }
 
 .skills {
-  align-self: flex-end;
-  margin-top: auto; /* Isso forçará as habilidades para a parte inferior, independentemente do conteúdo */
+  display: flex;
+  justify-content: left;
+  margin-top: auto;
 }
 
 .skills-title {
