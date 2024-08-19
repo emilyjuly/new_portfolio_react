@@ -4,6 +4,16 @@ import ProjectCard from '../../components/ProjectCard/index.jsx';
 const Projects = () => {
   return (
     <div className="container-projects">
+    <ProjectCard
+        urlImage={'projects/project-quiz-time.png'}
+        link={'https://quiztime-taupe.vercel.app/'}
+        title={'Quiz Time'}
+        description={
+          'Um quiz com temas como frontend e backend, desenvolvido usando Reactjs. Ele possui gerenciamento de níveis usando o gerenciamento de estado global do React e o localstorage do navegador. Design responsivo usando mobile first, modelo de design minimalista feito a partir de um protótipo do Figma.'
+        }
+        resources={'REACT - REACT CONTEXT - LOCALSTORAGE - HOOKS - TYPESCRIPT'}
+        linkRepo={'https://github.com/emilyjuly/quiztime'}
+      />
       <ProjectCard
         urlImage={'projects/project-bosshe-cars.png'}
         link={'https://bosshe-cars.vercel.app/'}
@@ -34,16 +44,6 @@ const Projects = () => {
         resources={'VUE 3 - NUXT 3 - PRIMEVUE - PINIA - API - PRIMEFLEX'}
         linkRepo={'https://github.com/emilyjuly/july-invest'}
       />
-      {/* <ProjectCard
-        urlImage={'projects/project-speech-to-text-img.png'}
-        link={'https://speech-to-text-notes.netlify.app/'}
-        title={'Speech to text'}
-        description={
-          'Uma ferramenta para capturar a voz e transcrever para texto, e a partir disso criar notas, que podem ser editadas, excluídas ou baixadas.'
-        }
-        resources={'VUE 3 - NUXT 3 - PRIMEVUE - PINIA - API - PRIMEFLEX'}
-        linkRepo={'https://github.com/emilyjuly/speech-to-text-notes'}
-      /> */}
       {/* <ProjectCard
         urlImage={'projects/project-subselect-img.png'}
         link={'https://sub-select.netlify.app/'}
