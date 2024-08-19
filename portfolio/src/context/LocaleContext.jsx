@@ -16,10 +16,6 @@ const LocaleProvider = ({ children }) => {
           setMessages(messages.default);
         })
         .catch((error) => {
-          console.error(
-            `Erro ao carregar as mensagens para a locale ${locale}`,
-            error,
-          );
           setMessages({});
         });
     } else {
